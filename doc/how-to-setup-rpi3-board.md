@@ -77,12 +77,12 @@
       8       34    4816896 sdc2 (83: Linux)
    ```   
       
-* 단계4: RPi3보드 부팅시에 Ubuntu OS를 자동으로 로그인하기  (자동 로그인하려는 계정이 'leemgs'이라고 가정한다.)
+* 단계4: RPi3보드 부팅시에 Ubuntu OS를 자동으로 로그인하기  (자동 로그인하려는 계정이 'hjoon0510'이라고 가정한다.)
    ```
    $ sudo vi /etc/lightdm/lightdm.conf
    [Seat:*]
    autologin-guest=false
-   autologin-user=leemgs
+   autologin-user=hjoon0510
    autologin-user-timeout=0
    ```
 
@@ -138,12 +138,12 @@ touch ssh
 ```  
 
 
-leemgs 이라는 계정아이디를 추가하는 방법이다.  아래와 같이 터미널에서 adduser 명령을 이용하면 된다. 
+hjoon0510 이라는 계정아이디를 추가하는 방법이다.  아래와 같이 터미널에서 adduser 명령을 이용하면 된다. 
 ```bash
-$ sudo adduser leemgs
+$ sudo adduser hjoon0510
 Enter new UNIX password: ******
 Retype new UNIX password: ******
-        Full Name []: leemgs
+        Full Name []: hjoon0510
         Room Number []:
         Work Phone []:
         Home Phone []:
@@ -269,7 +269,7 @@ $ sudo systemctl enable systemd-networkd
 
 라즈베리파이3에는 WiFi가 내장되어 있다. 그런데 어떤 WiFi SSID는 접속이 되고 어떤 WiFi 있는데, 활성화가 되지 않았다. 별짓을 다 했음에도 동작을 하지 않아서 집에 굴러다니던 USB형 WiFi동글을 꼽았더니 그냥 동작이 잘된다. 일반적으로 라즈베리파이3는 인터넷을 위한 방법으로 WiFi 와 블루투스 장치를 제공하고 있다. 여기서는 무선 WiFi 장치를 이용하는 방법으로 설명한다. 
    * RPI3에서 wifi을 사용하기위해 가급적  (1) 인터넷 공유기와 (2) RPI3 보드 둘다 모두 "country=US"을 설정되어 있어야 한다. 
-   * 20012년에 출시되었던 wevo공유기는 호환이 안되어  (leemgswevo2g)에 WiFi 연결이 안되었다. LG Uplus 공유기의 (leemgslgu2g)에는 wifi접속이 잘되었다. 
+   * 20012년에 출시되었던 wevo공유기는 호환이 안되어  (hjoon0510wevo2g)에 WiFi 연결이 안되었다. LG Uplus 공유기의 (hjoon0510lgu2g)에는 wifi접속이 잘되었다. 
    * 우측 상단의 와이파이 아이콘을 클릭후 [v] "Enable WiFi"를 클릭하면 Wifi 리스트가 scanning된다. 
    
 * RPI3 보드에서 원활한 WiFi 접속을 위해서 ko_KR.UTF8 설정하면 안되고, en_US.UTF8으로 설정해야 한다. 
@@ -579,7 +579,7 @@ firefox http://{RPI_IP_ADDRESS}/phpmyadmin
 ```
 
 *무인관리시스템 데이타베이스 테이블 setup하기
-https://github.com/leemgs/ums/tree/master/mysql/
+https://github.com/hjoon0510/ums/tree/master/mysql/
 http://192.168.219.122/phpmyadmin/ - sbdb 테이블 선택하기(좌측메뉴) -sql 메뉴 선택하기
  
 # VNC Server Setup on Raspberry Pi 3
@@ -707,7 +707,7 @@ RPI3보드와 HDMI 모니터간에 HDMI 케이블을 연결할경우에 mp3 플�
 
 "aplay -l " 명령을 이용하여 사운드 카드 정보를 확인하다. 
 ```bash
-leemgs@ubuntu:~$ aplay -l
+hjoon0510@ubuntu:~$ aplay -l
 **** List of PLAYBACK Hardware Devices ****
 MobaXterm X11 proxy: Authorisation not recognised
 xcb_connection_has_error() returned true
@@ -803,7 +803,7 @@ aplay foo.wav
 # Play wma file with cvlc and mplayer command
 ```bash
 Please make *.wma file by running recording software on winodws7.
-# gksu -u leemgs cvlc ../sound/sound-rain.wma
+# gksu -u hjoon0510 cvlc ../sound/sound-rain.wma
 # mplayer  ./sound/weather-rain.wma
 ```
 
@@ -825,13 +825,13 @@ $ sudo cp ssmtp.conf ssmtp.conf.bak
 
 [/etc/ssmtp/ssmtp.conf 파일 설정 변경]
 ```bash
-root=leemgs@gmail.com
+root=hjoon0510@gmail.com
 mailhub=smtp.gmail.com:587
 rewriteDomain=
 hostname=localhost
 UseTLS=YES
 UseSTARTTLS=YES
-AuthUser=leemgs@gmail.com
+AuthUser=hjoon0510@gmail.com
 AuthPass=xxxxxxxxx
 FromLineOverride=YES
 ```

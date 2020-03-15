@@ -225,7 +225,7 @@ INSERT INTO `store_info` (`id`, `password`, `name`, `email`) VALUES
 ('khs7516', 'hist7676', 'ë“œë¦¼ë¬¸ê³ ', 'khs7516@gmail.com '),
 ('limhyunjoon', 'ums2848', 'ì •ìœ¡ì ', 'azg053465@naver.com'),
 ('dhdldzhkf13', 'ums2848', 'í† ë§ˆí† ê°€ê²Œ', 'dhdldzhkf13@gmail.com'),
-('ums', 'ums', 'ì‹ í† ë¶ˆì´', 'leemgs@gmail.com');
+('ums', 'ums', 'ì‹ í† ë¶ˆì´', 'hjoon0510@gmail.com');
 
 --
 -- 덤프된 테이블의 인덱스

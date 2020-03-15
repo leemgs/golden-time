@@ -1,5 +1,5 @@
 /**
- * @Author: Geunsik Lim, Cheolwhan Oh
+ * @Author: Hyunjoon Lim, Cheolwhan Oh
  * @Date: Nov-17-2019
  * @Title: Launcher to start (1) apache web-server and (2) pir sensor program
  * @License: Star

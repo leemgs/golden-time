@@ -183,7 +183,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=/work/ums-79c7917331aa.json
 sudo rm -f 201808042130_45e234af17ecda8a63889767053b1b89.flac
 sudo ffmpeg -i 201808042130_45e234af17ecda8a63889767053b1b89.m4a -af aformat=s16:44100 201808042130_45e234af17ecda8a63889767053b1b89.flac
 
-speech=/home/leemgs/google-speech-api/php-docs-samples/speech/speech.php 
+speech=/home/hjoon0510/google-speech-api/php-docs-samples/speech/speech.php 
 /usr/bin/php $speech transcribe 201808042130_45e234af17ecda8a63889767053b1b89.flac  --encoding FLAC --language-code ko-KR --sample-rate 44100
 
 ```

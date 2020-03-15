@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# @Author: Geunsik Lim
+# @Author: Hyunjoon Lim
 # @Date: Nov-02-2019
 # @Title: Motion Probing Software with PIR motion sensor
 # @License: Star
@@ -23,7 +23,7 @@
 # $ sudo visudo 
 #  # User privilege specification
 #    root         ALL=(ALL:ALL) ALL
-#    leemgs       ALL=NOPASSWD: ALL
+#    hjoon0510       ALL=NOPASSWD: ALL
 # $ ./detector.py
 #
 # Reference:

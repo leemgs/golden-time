@@ -3,7 +3,7 @@
 
 ## download (from github.com)
 ```bash
-git clone https://github.com/leemgs/test.git
+git clone https://github.com/hjoon0510/test.git
 cd <folder-name>
 ```
 

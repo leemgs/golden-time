@@ -20,8 +20,8 @@ $ cd /var/www/html
 $ sudo apt -y remove nano
 $ sudo apt -y install git vim
 $ sudo update-alternatives --set editor /usr/bin/vim.tiny
-$ git clone https://github.com/leemgs/ums-for-smart-factory.git
-$ mv ums-for-smart-factory ums
+$ git clone https://github.com/hjoon0510/golden-time.git
+$ mv golden-time
 $ cd ./ums 
 $ sudo chown -R www-data:www-data /var/www/html/ums/audio/
 $ sudo visudo

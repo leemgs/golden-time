@@ -3,7 +3,7 @@
 # @title:  A script to transcript an audio file from .m4a to a text message using Cloud + Deep Learning
 # @note    doc/How-to-use-google-speech-api.md
 # @site:   https://cloud.google.com/speech-to-text/
-# @author: Geunsik Lim <leemgs@gmail.com>
+# @author: Hyunjoon Lim <hjoon0510@gmail.com>
 #          Cheolwhan Oh <dhdldzhkf13@gmail.com>
 
 # Configuration variables for Google AI speech API
