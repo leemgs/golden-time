@@ -21,9 +21,8 @@ $ sudo apt -y remove nano
 $ sudo apt -y install git vim
 $ sudo update-alternatives --set editor /usr/bin/vim.tiny
 $ git clone https://github.com/hjoon0510/golden-time.git
-$ mv golden-time
-$ cd ./ums 
-$ sudo chown -R www-data:www-data /var/www/html/ums/audio/
+$ cd ./golden-time
+$ sudo chown -R www-data:www-data /var/www/html/golden-time/audio/
 $ sudo visudo
 --------------- /etc/sudoers: start ----------------
 #includedir /etc/sudoers.d
