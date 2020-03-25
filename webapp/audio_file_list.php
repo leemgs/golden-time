@@ -84,7 +84,7 @@ $current_page = floor($no/$page_size);
 require ("./menu2.php");
 ?>
 
-<span style="font-weight: bold; font-size: 1.5em;">음성파일 관리 (공장용) </span>
+<span style="font-weight: bold; font-size: 1.5em;">음성파일 관리</span>
 <br>
 <br>
 <a href="./audio_file_list.php"><img src=./images/file-list.png border=0 width=50 height=50></img></a>
