@@ -11,7 +11,7 @@ if(!isset($_SESSION['id'])) {
 <html lang="ko">
 <head>
 <meta name="viewport" content="width=device-width, user-scalable=no">
-<title>공장 주인용: 오디오 파일 업로드</title>
+<title>주인용: 오디오 파일 업로드</title>
 <script type="text/javascript">
   function showpopup_audio_store_name() {
       window.open("popup_audio_store_name.php", "_blank", "width=400, height=200, left=100, top=50");
@@ -79,7 +79,7 @@ function formSubmit(f) {
 <br>
 <font color=blue>설명이 필요한 경우 <img src=images/item.png border=0 height=15 width=15 />을 클릭하여 정보를 확인하세요.</font>
 <br><br>
-<font size=5 color=black><img src=images/item.png onclick="showpopup_audio_store_name();" onmouseover="this.style.cursor='pointer'" border=0 height=25 width=25 />공장명<font color=red>*</font> <INPUT TYPE=TEXT NAME=store STYLE="BACKGROUND-COLOR: #DDDDD0" SIZE=20 MAXLENGTH=20 READONLY VALUE="<?= $_SESSION['name'] ?>" >
+<font size=5 color=black><img src=images/item.png onclick="showpopup_audio_store_name();" onmouseover="this.style.cursor='pointer'" border=0 height=25 width=25 />이름<font color=red>*</font> <INPUT TYPE=TEXT NAME=store STYLE="BACKGROUND-COLOR: #DDDDD0" SIZE=20 MAXLENGTH=20 READONLY VALUE="<?= $_SESSION['name'] ?>" >
 <br><br> </font>
 <?php
 date_default_timezone_set("Asia/Seoul");

@@ -5,7 +5,7 @@
 <title>Popup message</title>
 </head>
 <body>
-공장명은 로그인을 하면 자동으로 입력됩니다. 
+이름은 로그인을 하면 자동으로 입력됩니다. 
 <br>
 <br>
 <input type=button value=닫기 onclick="window.close();">

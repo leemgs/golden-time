@@ -10,7 +10,7 @@ $file_id  = $_REQUEST['file_id'];
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no">
-<title>공장행사 관리 리스트  목록</title>
+<title> 관리 리스트  목록</title>
 </head>
 <body>
 
@@ -59,7 +59,7 @@ while($row = mysqli_fetch_assoc($result)) {
   <td><?=$row['reg_time'] ?>
 </tr>
 <tr>
-  <td bgcolor=99ff99>공장명</td>
+  <td bgcolor=99ff99>이 름</td>
   <td width=100 style="table-layout:fixed; word-break:break-all;"><?=$row['store_name'] ?></td>
 </tr>
 <tr>

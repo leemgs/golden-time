@@ -56,7 +56,7 @@ while($row = mysqli_fetch_assoc($result)) {
   <td><?=$row['reg_time'] ?>
 </tr>
 <tr>
-  <td bgcolor=yellow>공장명</td>
+  <td bgcolor=yellow>이 름</td>
   <td width=100 style="table-layout:fixed; word-break:break-all;"><?=$row['store_name'] ?></td>
 </tr>
 <tr>

@@ -7,7 +7,7 @@
 #----------- Configuration area -------------------------
 
 # setting for detector code
-folder = "/var/www/html/ums/sensor/"
+folder = "/var/www/html/golden-time/sensor/"
 GPIO_PIN_NO = 11
 search_path="../audio/"
 play_break_time_sec = 3

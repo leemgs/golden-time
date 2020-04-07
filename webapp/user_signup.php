@@ -19,7 +19,7 @@ $mysqli=mysqli_connect($db_host,$db_user,$db_pass,$db_name);
  </div>
  
  <div>
- <label for="name"> 공장명 </label>
+ <label for="name"> 이름 </label>
  <input type="text" name="name"/>
  </div>
  <div>

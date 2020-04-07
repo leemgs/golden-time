@@ -100,7 +100,7 @@ require ("./menu2.php");
 	<th width=50>삭제</th>
 	<th width=50>상세</th>
 <!--	<th>업로드 시각</th> //-->
-	<th width=100>공장명</th>
+	<th width=100>이름</th>
 	<th width=440>음성 내용</th>
 <!--	<th>파일 ID</th>   //-->
 <!--	<th>업로드 파일명</th> //-->

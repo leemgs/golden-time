@@ -35,11 +35,11 @@ if(!isset($_SESSION['id'])) {
 <a href="./event_file_list.php"><img src=./images/file-list.png alt="이벤트 일정 리스트로 이동하기" title="이벤트 일정 리스트로 이동하기" border=0 width=50 height=50></img></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
-<font size=5 color=black> 이벤트 일정 업로드 화면</font>
+<font size=5 color=black> 일정 업로드 화면</font>
 <br>
 <font color=blue>설명이 필요한 경우 <img src=images/item.png border=0 height=15 width=15 />을 클릭하여 정보를 확인하세요.</font>
 <br><br>
-<font size=5  Color=black><img src=images/item.png onclick="showpopup_event_store_name();" onmouseover="this.style.cursor='pointer'" border=0 height=25 width=25 />공장명<font color=red>*</font> <INPUT TYPE=TEXT NAME=store STYLE="BACKGROUND-COLOR: #DDDDD0" SIZE=20 MAXLENGTH=20 READONLY VALUE="<?= $_SESSION['name'] ?>" > <br><br> </font>
+<font size=5  Color=black><img src=images/item.png onclick="showpopup_event_store_name();" onmouseover="this.style.cursor='pointer'" border=0 height=25 width=25 />이름<font color=red>*</font> <INPUT TYPE=TEXT NAME=store STYLE="BACKGROUND-COLOR: #DDDDD0" SIZE=20 MAXLENGTH=20 READONLY VALUE="<?= $_SESSION['name'] ?>" > <br><br> </font>
 
 <!--
 <font size=5  Color=black>시작 시간 <INPUT TYPE=TEXT NAME=time STYLE="BACKGROUND-COLOR: #99ff99" SIZE=12 MAXLENGTH=12><br><br> </font>

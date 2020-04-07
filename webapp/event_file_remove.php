@@ -65,6 +65,6 @@ else {
 ?>
 
 <br><br>
-<a href="./event_file_list.php"><img src=./images/file-list.png alt="공장행사 관리 리스트로 이동하기" title="공장행사 관리 리스트로 이동하기" border=0 width=50 height=50></img></a>
+<a href="./event_file_list.php"><img src=./images/file-list.png alt="이벤트 관리 리스트로 이동하기" title="공장행사 관리 리스트로 이동하기" border=0 width=50 height=50></img></a>
 </body>
 </html>

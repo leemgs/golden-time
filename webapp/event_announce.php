@@ -87,7 +87,7 @@ $current_page = floor($no/$page_size);
 <?php
 require ("./menu2.php");
 ?>
-<span style="font-weight: bold; font-size: 1.5em;"> 이벤트 알림화면 (직원용)</span>
+<span style="font-weight: bold; font-size: 1.5em;"> 일정 알림화면</span>
 <br>
 <br>
 <table width=370>
@@ -97,14 +97,14 @@ require ("./menu2.php");
 </table>
 <?php
 #echo "<br>";
-echo " ■ 이벤트 총 갯수: $total_row 개<br>";
+echo " ■ 일정 개수: $total_row 개<br>";
 
 ?>
 <table border="0">
 <tr height=40 bgcolor=skyblue>
- 	<th width=100>이벤트일자 (*)</th> 
-	<th width=150>공장명</th>
-	<th width=500>이벤트 내용</th>
+ 	<th width=100>일자 (*)</th> 
+	<th width=150> 이름</th>
+	<th width=500>일정 내용</th>
 </tr>
 <?php
 // Author: Hyunjoon Lim, Cheolwhan Oh
