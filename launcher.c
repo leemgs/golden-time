@@ -15,8 +15,8 @@
 int main(void){
     int result;
   
-    // Start ums
-    printf ("Starting ums Launcher...\n");
+    // Start golden-time
+    printf ("Starting golden-time Launcher...\n");
     printf ("Press CTRL+C if you want to stop.\n");
     printf ("\n");
     printf ("\n");
@@ -38,10 +38,10 @@ int main(void){
         printf("[webapp] Apache web-server is successfully started.\n");
 
     // Step2: run PIR motion sensor
-    // * with background: exec /var/www/html/ums/sensor/detector &> /dev/null &
-    // * with foreground: /var/www/html/ums/sensor/detector.py 
+    // * with background: exec /var/www/html/golden-time/sensor/detector &> /dev/null &
+    // * with foreground: /var/www/html/goldrn-time/sensor/detector.py 
     printf("(2/2)[sensor] Starting PIR sensor program...\n");
-    result = system("/var/www/html/ums/sensor/detector.py");
+    result = system("/var/www/html/golden-time/sensor/detector.py");
     if (result == -1){
         printf("[ERROR] pir sensor: A PIR sensor process could not be created. return value is %d.\n",result); exit(0);
     }
